@@ -38,7 +38,9 @@ it is recommended to resolve any dependencies you might have beforehand. To run 
 
 For analysis and visualization of data that is already preprocessed (i.e. probability of spikings or KL divergence comparison of trials), view the notebook `spike_train_tools_demo.ipynb` to view the avaialble analyses.
 
-Please see notebooks, but here is a brief summary of the functions within this repo:
+### Contents and Functionality
+
+Here is a brief summary of the files and functions within this repo. The jupyter notebook demos make use of each file.
 
 mujoco_sense.py - controls the MATLAB engine API for Python
 matlab/HaptixInterface.mat - Interface between MATLAB and MuJoCo HAPTIX
