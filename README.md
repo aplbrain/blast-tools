@@ -28,7 +28,7 @@ This repo has dependencies for those leveraging this pipeline in a borad scope (
     * `pip install numpy`
     * `pip install scipy`
     * `pip install matplotlib`
-    * The demos run in Jupyter Notebooks, requiring [anaconda][https://docs.anaconda.com/anaconda/install/]. The code itself may run independently.
+    * The demos run in Jupyter Notebooks, requiring [anaconda](https://docs.anaconda.com/anaconda/install/). The code itself may run independently.
           
 ### Software Setup
 
