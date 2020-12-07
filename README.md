@@ -42,23 +42,22 @@ For analysis and visualization of data that is already preprocessed (i.e. probab
 
 Here is a brief summary of the files and functions within this repo. The jupyter notebook demos make use of each file.
 
-mujoco_sense.py - controls the MATLAB engine API for Python
-matlab/HaptixInterface.mat - Interface between MATLAB and MuJoCo HAPTIX
-matlab/MuJoCoSense.mat - Sensing & data collection in MuJoCo HAPTIX env
-matlab/MuJoCoToSpikes.mat - Converting HAPTIX data to neural response
-matlab/MuJoCoToStruct.mat - Preprocessing for spike train analysis
-TouchSimMat2Python_Loader.py - Loads preprocessed responses to Python data types
-spiketrainanalysis.py - Toolkit for spike train analysis
-trialstats.py - Wrapper for simplified spike train analysis
+`mujoco_sense.py`             - controls the MATLAB engine API for Python \
+`matlab/HaptixInterface.mat`  - Interface between MATLAB and MuJoCo HAPTIX \
+`matlab/MuJoCoSense.mat`      - Sensing & data collection in MuJoCo HAPTIX env \
+`matlab/MuJoCoToSpikes.mat`   - Converting HAPTIX data to neural response \
+`matlab/MuJoCoToStruct.mat`   - Preprocessing for spike train analysis \
+`TouchSimMat2Python_Loader.py`- Loads preprocessed responses to Python data types \
+`spiketrainanalysis.py`       - Toolkit for spike train analysis \
+`trialstats.py - Wrapper`     - for simplified spike train analysis \
 
 There are specific Spike Train Analysis Tools within trialstats.py that users might find useful:
-compare_neuron()   # Compares 2 different neurons across trials 
-compare_afferent() # Compares 2 different afferent types (sa, ra, pc) across trials  
-compare_response() # Compares 2 different experimental responses (e.g. object 1 vs object 2)  
-compare_trial()    # Compares 2 different trials of the same experiement (e.g. trial 2 vs trial 4)  
-compare_noise()    # Compares 2 different noise profiles of the same condition (e.g. 0 dB noise vs 9 dB noise) 
-compare_location() # Compares 2 different stimulus points based on x-y coordinates
-
+`compare_neuron()`   - Compares 2 different neurons across trials \
+`compare_afferent()` - Compares 2 different afferent types (sa, ra, pc) across trials \  
+`compare_response()` - Compares 2 different experimental responses (e.g. object 1 vs object 2) \  
+`compare_trial()`    - Compares 2 different trials of the same experiement (e.g. trial 2 vs trial 4) \  
+`compare_noise()`    - Compares 2 different noise profiles of the same condition (e.g. 0 dB noise vs 9 dB noise) \ 
+`compare_location()` - Compares 2 different stimulus points based on x-y coordinates \
 
 This repo was developed by Christophe J. Brown at the Johns Hopkins University Applied Physics Laboratory
  
