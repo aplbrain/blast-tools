@@ -34,7 +34,7 @@ This repo has dependencies for those leveraging this pipeline in a borad scope (
 
 To clone this repo and access its files: `git clone https://github.com/aplbrain/blast-tools.git`
 
-it is recommended to resolve any dependencies you might have beforehand. To run the demo notebook, navigate to the `notebooks` directory in a terminal environment and open `mujoco_haptix_spike_train_analysis.ipynb` and follow the instructions contained within. The notebook preview should also be available for viewing on Github. MATLAB does NOT need to be running for the MMATLAB engine API to work in Python, but MuJoCo HAPTIX must be running for haptic sensing to take place. Please see the full video of the notebook for visual instructions. [VIDEO LINK NEEDED]
+it is recommended to resolve any dependencies you might have beforehand. To run the demo notebook, navigate to the `notebooks` directory in a terminal environment and open `mujoco_haptix_spike_train_analysis.ipynb` and follow the instructions contained within. The notebook preview should also be available for viewing on Github. MATLAB does NOT need to be running for the MATLAB engine API to work in Python, but MuJoCo HAPTIX must be running for haptic sensing to take place. Please see the full video of the notebook for visual instructions. [VIDEO LINK NEEDED]
 
 For analysis and visualization of data that is already preprocessed (i.e. probability of spikings or KL divergence comparison of trials), view the notebook `spike_train_tools_demo.ipynb` to view the avaialble analyses.
 
