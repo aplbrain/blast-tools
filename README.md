@@ -9,6 +9,27 @@ The goal with these software tools is to easily convert analog sensor signals in
 
 There are two notebooks that give short demos of the tool functionality using some pre-processed spiking tactile data that was generated from the MuJoCo HAPTIX environment.
 
+# Getting Started
+
+This repo has dependencies for those leveraging this pipeline in a borad scope (i.e. performing data generation, preprocessing, and analysis).
+
+### Dependencies:
+* MATLAB installed - used for controlling MuJoCo HAPTIX and TouchSim computations.
+    * Also install the MATLAB engine API for Python. This allows user to `import matlab.engine()` for scripting MATLAB instructions from Python
+    * https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
+* MuJoCo HAPTIX 
+    * MuJoCo HAPTIX Installation: https://www.roboti.us/index.html
+    * MuJoCo HAPTIX Documentaiton (if needed): http://www.mujoco.org/book/haptix.html
+    * For running the demo notebook
+          * Must be installed and running `MPL_key.xml` when the `haptix_sense()` function is called
+          * Run MuJoCo HAPTIX from `mjhaptix150\mjhaptix150\program\mjhaptix.exe`
+          * Open `MPL_key.xml` in HAPTIX from  `mjhaptix150\mjhaptix150\model\MPL\MPL_Key.xml`
+          
+### Software Setup
+
+
+
+
 More detail is provided in the notebooks, but here is a brief summary of the functions within this repo:
 
 mujoco_sense.py - controls the MATLAB engine API for Python
